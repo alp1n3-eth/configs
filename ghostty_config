@@ -1,0 +1,54 @@
+
+
+
+# Font Styling
+font-family = "Geist Mono"
+font-size = 18
+font-thicken = true
+
+# Cursor Styling
+# shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
+
+# Window & Cell Styling
+window-width = 120
+window-height = 45
+window-padding-x = 4
+window-padding-balance = true
+adjust-cell-height = 35%
+macos-titlebar-style = tabs
+#background-blur-radius = 20
+#background-opacity = 0.5
+#macos-titlebar-style = hidden
+#macos-non-native-fullscreen = true
+
+#background-opacity = 0.9
+
+
+# Theme
+#theme = catppuccin-mocha
+#theme = tokyonight
+#theme = rose-pine-moon     # <---- FAVORITE
+#theme = arcoiris
+theme = xcodedarkhc
+
+
+# Functionality
+window-save-state = always
+copy-on-select = true
+selection-invert-fg-bg = true
+
+# Icon theme
+macos-icon = custom-style
+macos-icon-screen-color = black
+macos-icon-ghost-color = red
+macos-icon-frame = plastic
+
+# Keybinds
+keybind = cmd+z=text:\x1b\x3a\x75\x0d\x69 # This allows Command+Z to "Undo" in Neovim
+
+
+
+
+
